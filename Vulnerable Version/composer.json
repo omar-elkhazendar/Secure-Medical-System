@@ -1,0 +1,17 @@
+{
+    "name": "medical-system/app",
+    "description": "Medical System with Role-Based Access Control",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "firebase/php-jwt": "^6.0",
+        "robthree/twofactorauth": "^1.8",
+        "phpmailer/phpmailer": "^6.5",
+        "phpgangsta/googleauthenticator": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+} 
